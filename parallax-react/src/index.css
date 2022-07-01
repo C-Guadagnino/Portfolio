@@ -23,11 +23,12 @@ code {
 
 .content {
   display: flex;
-  align-items: center;
+  align-items: top;
   justify-content: center;
   position: absolute;
-  height: 100vh;
+  height: 70px;
   width: 100%;
+  margin-top: 30%;
 }
 
 .content span.image-txt {
@@ -37,6 +38,35 @@ code {
   padding: 1rem;
   font-size: 1.5rem;
   letter-spacing: 10px;
+}
+
+.othercontent {
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  position: absolute;
+  height: 70px;
+  width: 100%;
+  margin-top: 36%;
+}
+
+.othercontent span.image-txt {
+  background-color: rgba(51, 51, 51, 0);
+  text-transform: uppercase;
+  color: #fff;
+  padding: 1rem;
+  font-size: 1.5rem;
+  letter-spacing: 10px;
+}
+
+.socialbutton {
+  background-color: rgba(51, 51, 51, 0);
+  text-transform: uppercase;
+  color: #fff;
+  padding: 1rem;
+  font-size: 1.5rem;
+  letter-spacing: 10px;
+  margin-top: 1em;
 }
 
 .text-box {
@@ -52,4 +82,16 @@ h3 {
   text-transform: uppercase;
   font: 1.3rem;
   text-align: center;
+}
+
+li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#emailcontainer :hover{
+  cursor: text;
+}
+#phonecontainer :hover{
+  cursor: text;
 }

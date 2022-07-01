@@ -1,17 +1,20 @@
 import React from "react";
-import { BrowserRouter, Navigate, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from './HomePage';
-import Nav from './Nav';
+import Header from "./components/Nav";
+import ImageOne from "./projects/imageOne";
+import TextBox from "./projects/TextBox";
+import ImageTwo from "./projects/imageTwo";
 
 function App() {
-  <BrowserRouter>
-      <Nav />
-      <div className='container-fluid p-0'>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-        </Routes>
-      </div>
-    </BrowserRouter>
+  return(
+  <div>
+    < HomePage />
+    < ImageOne />
+    < TextBox />
+    < ImageTwo />
+  </div>
+  )
 }
 
 export default App;

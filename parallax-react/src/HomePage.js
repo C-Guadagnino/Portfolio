@@ -17,18 +17,23 @@ function HomePage() {
   
     return (
       <>
-       <img
-          className='w-full h-[440px] object-cover object-center'
-          src= { passion }
-          alt='' />
-        <div className='relative flex items-center'>
+      <div>
+       <div className='bg-hero-image w-full h-[1000px] bg-cover bg-center flex items-center px-4 justify-center'>
+            <div className='uppercase text-center text-white font-extrabold'>
+                <h1 className='text-8xl '>Cameron Guadagnino</h1>
+                <h3>Full Stack Engineer</h3>
+            </div>
+        </div> 
+        <div className='relative flex items-center bg-gradient-to-b from-pinkish to-blueish'>
           <MdChevronLeft className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideLeft} size={40} />
-            <div id='slider' className='w-full h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide'>
+            <div id='slider' className='w-full h-[200px] overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide flex'>
               {data.map((item) => (
-                <img className='w-[220px] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300'src={item.img} alt='/' />
+                <img className='w-[220px] h-full justify-center inline-block p-2 cursor-pointer hover:scale-90 ease-in-out duration-300'src={item.img} alt='/' />
               ))}
             </div>
           <MdChevronRight className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideRight} size={40} />
+        </div>
+
         </div>
       </>
     );
