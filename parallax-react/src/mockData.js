@@ -4,15 +4,18 @@ import keyboard from "./images/keyboard.png"
 export const data = [
     {
       id: 1,
-      img: eatinerarytitlecard
+      img: eatinerarytitlecard,
+      link: "https://gitlab.com/cuisine-coders/eatinerary"
     },
     {
       id: 2,
-      img: carcar
+      img: carcar,
+      link: "https://github.com/C-Guadagnino/CarCar"
     },
     {
       id: 3,
-      img: keyboard
+      img: keyboard,
+      link: "https://github.com/C-Guadagnino/Ferris-Sweep-Layout"
     },
     {
       id: 4,

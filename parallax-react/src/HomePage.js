@@ -14,6 +14,10 @@ function HomePage() {
       let slider = document.getElementById('slider')
       slider.scrollLeft = slider.scrollLeft + 500
     }
+
+    // const handleGitClick = (item) => {
+    //   item.link ? window.open(item.link) : "Sup Bitch"
+    // }
   
     return (
       <>
@@ -28,7 +32,7 @@ function HomePage() {
           <MdChevronLeft className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideLeft} size={40} />
             <div id='slider' className='w-full h-[200px] overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide flex'>
               {data.map((item) => (
-                <img className='w-[220px] h-full justify-center inline-block p-2 cursor-pointer hover:scale-90 ease-in-out duration-300'src={item.img} alt='/' />
+                <img className='w-[220px] h-full justify-center inline-block p-2 cursor-pointer hover:scale-90 ease-in-out duration-300'src={item.img} alt='/' onClick={() => item.link ? window.open(item.link) : "There is no link to this project"} />
               ))}
             </div>
           <MdChevronRight className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideRight} size={40} />
