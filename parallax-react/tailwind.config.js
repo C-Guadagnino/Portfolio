@@ -1,3 +1,4 @@
+const { createPortal } = require('react-dom')
 const colors = require('tailwindcss/colors')
 
 module.exports = {
@@ -10,6 +11,9 @@ module.exports = {
       'blueish' : '#17495d',
       'white' : colors.white,
       'gray' : colors.gray,
+      'black' : colors.black,
+      'stone' : colors.stone,
+      'blackish' : "#000000"
     },
 
     screens: {

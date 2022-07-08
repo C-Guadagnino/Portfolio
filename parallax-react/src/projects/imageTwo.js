@@ -23,7 +23,7 @@ export default function ImageTwo() {
     const handleOnClosePhone = () => setShowPhone(false)
 
     return(
-    <Parallax className='image' bgImage={image3} strength={800}>
+    <Parallax className='image bg-gradient-to-b from-gray-900 to-gray-300' wstrength={800}>
         <div className='content'>
             <span className='image-txt'> Contact me</span>
         </div>

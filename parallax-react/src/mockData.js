@@ -1,10 +1,11 @@
 import eatinerarytitlecard from "./images/eatinerary.png"
 import carcar from "./images/Car.png"
 import keyboard from "./images/keyboard.png"
+import eatCard from './images/eatCard.png'
 export const data = [
     {
       id: 1,
-      img: eatinerarytitlecard,
+      img: eatCard,
       link: "https://gitlab.com/cuisine-coders/eatinerary"
     },
     {
@@ -18,11 +19,11 @@ export const data = [
       link: "https://github.com/C-Guadagnino/Ferris-Sweep-Layout"
     },
     {
-      id: 4,
-      img: eatinerarytitlecard
+      id: 5,
+      img: eatCard
     },
     {
-      id: 5,
+      id: 8,
       img: carcar
     },
     {
@@ -31,7 +32,7 @@ export const data = [
     },
     {
       id: 7,
-      img: eatinerarytitlecard
+      img: eatCard
     },
     {
       id: 8,
@@ -43,7 +44,7 @@ export const data = [
     },
     {
       id: 10,
-      img: eatinerarytitlecard
+      img: eatCard
     },
     {
       id: 11,

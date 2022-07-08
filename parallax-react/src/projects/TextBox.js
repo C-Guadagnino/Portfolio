@@ -5,27 +5,25 @@ import {BsFillRecordCircleFill} from 'react-icons/bs'
 const TextBox = () => {
     return(
         <div className="text-box h-[500px] flex">
-            <div className="self-center m-auto">
+            <div className="self-center m-auto font-sans font-medium text-lg">
             <p>
 
-            CarCar <br />
-
-            <li> Created a way to sort and keep an inventory of vehicles through back-end Django data modeling. <br />
-            Using React javaScript to allow the visualization and interaction of data through a Graphical Human Interface. <br />
-            </li>
-            QMK-Keyboard Configuration
-
-            <li>Mapped keys by creating a sequence In C that allowed a piece of hardware to recognize specialty keystrokes<br />
-            Hardware designed and constructed to optimize workflow for people with carpal tunnel or other wrist ailments,
-            <br /> potentially giving optimality back to those impaired.<br />
-            </li>
-            Eatinerary<br />
-
-
-            <li>Full-Stack development written with React, Django, and FastAPI to help create a seamless transition of data<br /> modeling and management from the user perspective. <br />
-            Managed the role of project lead, creatively directing and designing user functionality inside of the application.<br />
-            </li>
+            I am a recent Hack-Reactor 19-week Software Engineering Bootcamp graduate,<br />
+            who is a results-oriented and people focused, as well I am an adaptable <br />
+            software engineer who loves the ever-changing programming landscape and<br />
+            learning new tools, editors, programming languages, and frameworks to create <br />
+            useful software for users I am excited to work in software engineering due to my  <br />
+            love of learning new skills. This is a field that allows for upwards growth in terms <br />
+            of career and technical skills, and that prospect is very exciting to me. As someone  <br />
+            who used to work in the health-care field, adaptability is something I have grown to love, <br />
+            and is something I will hope to use to leverage my way into a successful career as a software engineer.<br />
             </p>
+
+            <div className="mt-5">
+            <p className="underline font-bold">Technical Skills :</p> <br />
+            JavaScript, Python, Django 4, React.js, Redux<br />
+            HTML, CSS, PostgreSQL, MongoDB, Heroku, JSON <br />
+            </div>
         </div>
         </div>
     )
